@@ -70,7 +70,6 @@ Popup.addEventListener("click", (e) => {
 
 
 
-
 const inputNamiot = document.getElementById("namiot");
 const inputParkiet = document.getElementById("parkiet");
 const inputStół = document.getElementById("stół");
@@ -82,27 +81,22 @@ const inputNagrzewnice = document.getElementById("nagrzewnice");
 const inputObsługa = document.getElementById("obsługa");
 const inputOblicz = document.getElementById("oblicz")
 
-//let finalMoney = namiot + parkiet + stoły + krzesła + zastawa + ozdoby + oświetlenie + obsługa;
-//console.log("finalMoney");
-
-function calculateAll (namiot,parkiet,stół,krzesła,zastawa,ozdoby,oświetlenie,nagrzewnice,obsługa){
+function calculateAll (){
     return inputNamiot.value* 1000 + inputParkiet.value*1000 + inputStół.value*50 + inputKrzesła.value*15+inputZastawa.value*15+inputOzdoby.value*300+inputOświetlenie.value*200+inputNagrzewnice.value*150+inputObsługa.value*500
 
 };
-
-
 document.getElementById("calculate").addEventListener("click", function(){
-let namiot = inputNamiot.value;
-let parkiet = inputParkiet.value;
-let stół = inputStół.value;
-let krzesła = inputKrzesła.value;
-let zastawa = inputZastawa.value;
-let ozdoby = inputOzdoby.value;
-let oświetlenie = inputOświetlenie.value
-let nagrzewnice = inputNagrzewnice.value;
-let obsługa = inputObsługa.value;
+    let namiot = inputNamiot.value;
+    let parkiet = inputParkiet.value;
+    let stół = inputStół.value;
+    let krzesła = inputKrzesła.value;
+    let zastawa = inputZastawa.value;
+    let ozdoby = inputOzdoby.value;
+    let oświetlenie = inputOświetlenie.value
+    let nagrzewnice = inputNagrzewnice.value;
+    let obsługa = inputObsługa.value;
 
-let result = calculateAll(namiot,parkiet,stół,krzesła,zastawa,ozdoby,oświetlenie,nagrzewnice,obsługa);
+let result = calculateAll();
 inputOblicz.value = result + " " + " zł" ;
 
 });

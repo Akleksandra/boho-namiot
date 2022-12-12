@@ -168,6 +168,7 @@ body {
     font-style: oblique;
     margin-top: 50px;
     margin-bottom: 100px;
+    padding-left: 10px;
    
 }
 
@@ -183,6 +184,7 @@ body {
     width: 320px;
     margin-top: -80px;
     margin-left: 50px;
+    padding-right: 50px;
 }
 
  .calc{
@@ -191,6 +193,8 @@ body {
     margin-left: -30px;
     margin-top: -120px;
     width: 160px;
+    padding-right: 70px;
+
   
     
     
@@ -224,6 +228,7 @@ body {
 }
 
 @media screen and (max-width:1000px){
+  
     #onas{
         flex-direction: column;
        

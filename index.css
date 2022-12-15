@@ -83,12 +83,24 @@ body {
 
 .header {
     min-height: 80vh;
-    padding-top:180px;
-    padding-bottom: 180px;
     background: url("images/olaola.jpg") center/cover;
     font-style: white 30px;
     
 }
+
+
+
+@media screen and (max-width:1000px){
+  
+    .header{padding-left: 520px;
+       
+    }
+
+}
+
+
+
+
 
 #onas-section{
     display: flex;
@@ -98,7 +110,21 @@ body {
 
 #onas p{
     text-align: justify;
+ 
 }
+
+@media screen and (max-width:1000px){
+  
+    #onas p{
+      margin-left: -26px;
+      margin-right: -26px;
+      text-align: center;
+       
+       
+    }
+}
+
+
 
 .header h3 {
     margin-bottom: 30px;
@@ -172,11 +198,29 @@ body {
    
 }
 
+@media screen and (max-width:1000px){
+  
+    .cennikimg p{
+      padding-left: 85px;
+       
+       
+    }
+}
+
 .cennikimg .uwaga{
     font-size: 15px;
     margin-top: 70px;
     padding-top: -5px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:1000px){
+  
+    .cennikimg .uwaga{
+      margin-top: 15px;
+     margin-bottom: 130px;
+         
+    }
 }
 
 .cennikimg img{

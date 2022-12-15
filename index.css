@@ -90,18 +90,6 @@ body {
 
 
 
-@media screen and (max-width:1000px){
-  
-    .header{
-        padding-left: 520px;
-       
-    }
-
-}
-
-
-
-
 
 #onas-section{
     display: flex;

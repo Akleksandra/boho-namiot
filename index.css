@@ -92,7 +92,8 @@ body {
 
 @media screen and (max-width:1000px){
   
-    .header{padding-left: 520px;
+    .header{
+        padding-left: 520px;
        
     }
 
@@ -201,7 +202,8 @@ body {
 @media screen and (max-width:1000px){
   
     .cennikimg p{
-      padding-left: 85px;
+      height: auto;
+      padding-left: 120px;
        
        
     }
@@ -267,9 +269,13 @@ body {
 
 }
 
-.licz{
-    text-decoration: bold;
-}
+@media screen and (max-width:1000px){
+  
+    #calculate{
+       width: 144px;
+       
+    }
+
 
 @media screen and (max-width:1000px){
   

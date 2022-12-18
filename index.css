@@ -82,10 +82,11 @@ body {
 }
 
 .header {
-    min-height: 80vh;
-    background: url("images/olaola.jpg") center/cover;
-    font-style: white 30px;
-    
+    width: 100%;
+    height: auto;
+    margin-left: -320px;
+   
+ 
 }
 
 
@@ -263,6 +264,7 @@ body {
        width: 144px;
        
     }
+}
 
 
 @media screen and (max-width:1000px){

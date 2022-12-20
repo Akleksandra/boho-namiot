@@ -191,7 +191,7 @@ body {
   
     .cennikimg p{
       height: auto;
-      padding-left: 120px;
+      padding-left: 70px;
        
        
     }
@@ -208,7 +208,8 @@ body {
   
     .cennikimg .uwaga{
       margin-top: 15px;
-     margin-bottom: 130px;
+      margin-bottom: 130px;
+      margin-left: -40px;
          
     }
 }

@@ -201,8 +201,13 @@ body {
     font-size: 15px;
     margin-top: 70px;
     padding-top: -5px;
+    margin-bottom: -40px;
+}
+.cennikimg .uwaga2{
+    font-size: 15px;
     padding-bottom: 20px;
 }
+
 
 @media screen and (max-width:1000px){
   
@@ -212,6 +217,13 @@ body {
       margin-left: -35px;
          
     }
+    .cennikimg .uwaga2{
+       
+        margin-bottom: 130px;
+        margin-left: -35px;
+        margin-top: -125px;
+           
+      }
 }
 
 .cennikimg img{
